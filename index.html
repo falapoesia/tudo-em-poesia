@@ -3,6 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <title>Tudo em Poesia</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #FFF5F7;
+      color: #444444;
+    }
+    header img {
+      width: 100%;
+      display: block;
+    }
+    nav {
+      background-color: #C9A4E6;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    nav a:hover {
+      color: #FFFCFA;
+      text-decoration: underline;
+    }
+    main {
+      padding: 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+    }
+    .categoria {
+      background-color: #FFFCFA;
+      border: 2px solid #B37EDC;
+      border-radius: 12px;
+      padding: 40px;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .categoria:hover {
+      background-color: #E6A4B4;
+      color: white;
+    }
+    .categoria a {
+      color: #B37EDC;
+      font-size: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .categoria a:hover {
+      color: white;
+    }
+    .sobre {
+      background-color: #FFFCFA;
+      padding: 30px;
+      margin: 50px auto;
+      max-width: 800px;
+      border-left: 6px solid #D885A3;
+      border-radius: 10px;
+    }
+    .sobre h2 {
+      color: #E6A4B4;
+      margin-bottom: 10px;
+    }
+    .sobre p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    footer {
+      background-color: #D885A3;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
 
@@ -32,12 +110,12 @@
     <div class="categoria">
       <a href="sentimentos.html">Meus Sentimentos</a>
     </div>
-
-    <div class="sobre" id="sobre">
-      <h2>Sobre Mim</h2>
-      <p>Sou apaixonada por poesia, uso ela para mostrar os meus sentimentos mais escondidos, de forma mais leve...</p>
-    </div>
   </main>
+
+  <div class="sobre" id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou apaixonada por poesia, uso ela para mostrar os meus sentimentos mais escondidos, de forma mais leve...</p>
+  </div>
 
   <footer id="contatos">
     &copy; 2025 Tudo em Poesia | Contato: tudoempoesia@email.com
