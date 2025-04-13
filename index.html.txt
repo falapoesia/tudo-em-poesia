@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tudo em Poesia</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fffdfc;
+      color: #333;
+    }
+    header {
+      text-align: center;
+    }
+    header img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+      white-space: pre-wrap;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="banner.jpg" alt="Tudo em Poesia - Banner" />
+  </header>
+  <main>
+    <h1>Sinto sua falta todo dia</h1>
+    <p>
+Sinto sua falta todo dia,
+mesmo você não estando mais na minha vida,
+está nos meus pensamentos.
+
+Dói ao te ver pelo o corredor, 
+e ver que somos estranhos.
+
+Minha vida melhorou,
+mas minha mente piorou.
+
+Você sempre estava comigo.
+Nunca imaginei que nunca mais falaria contigo.
+
+Toda noite, penso em te mandar mensagem,
+mas só de lembrar que você está com outro alguém,
+já me trás felicidade.
+
+Gosto de ver o seu sorriso 
+mesmo não sendo para mim,
+e te ver rindo é incrível...
+
+Espero que esteja bem 
+com esse novo alguém.
+Se precisar pode contar comigo,
+como prometido.
+
+Mais saiba que não vou correr atrás de você,
+mesmo querendo muito o teu carinho...
+
+*Escrito em 20 de dezembro de 2024*
+    </p>
+  </main>
+  <footer>
+    Tudo em Poesia - Um espaço anônimo para sentimentos verdadeiros.
+  </footer>
+</body>
+</html>
